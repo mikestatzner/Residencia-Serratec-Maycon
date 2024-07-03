@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+}
+
+.container {
+    display: flex;
+
+}
+
+.cadastro {
+    display: flex;
+    position: fixed;
+    left: 50%;
+    padding: 10px;
+    color: #182540;
+}
+
+aside {
+    background-color: #00052F;
+    height: 100vh;
+    width: 157px;
+    justify-content: space-between;
+    padding: 8px, 9px, 8px, 9px;
+    border-radius: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.logoFest {
+    width: 100px;
+    height: 20px;
+    margin-top: 50px;
+}
+
+.botaoDeSaida {
+    width: 53.33px;
+    height: 53.33px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario {
+    margin-top: 105px;
+    display: flex;
+    margin-left: 60px;
+    align-items: start;
+}
+
+.coluna1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.coluna2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #00052F;
+    padding-left: 10px;
+    margin-bottom: 18px;
+    font-size: 13.5px;
+}
+
+label {
+    margin-bottom: 15px;
+    color: #182540;
+}
+
+.interrogacao {
+    width: 22px;
+    height: 22px;
+    
+}   
+
+select {
+    width: 311.6px;
+    height: 31.6px;
+    border: 1px solid #00052F;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+input::file-selector-button{
+    /* display: none; */
+}
+
+.miniBiografia {
+    height: 90px;
+    font-size: 13.5px;
+}
